@@ -17,6 +17,7 @@ GPIO.setup (LED_pin, GPIO.OUT)
 GPIO.setup (button_pin, GPIO.IN)
 
 
+
 while True:
     if detect_mode==True:
         print ("detecting")
@@ -28,8 +29,10 @@ while True:
     if GPIO.input (button_pin):
         if detect_mode == True:
             detect_mode = False
+            print ("off")
         else:
-            detect_mode = True 
+            detect_mode = True
+            print ("on")
     time.sleep(0.5)
            
 
