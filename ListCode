@@ -1,0 +1,8 @@
+myList = ['e', 't', 'y', 'u', 'd']
+print (myList [3])
+print (myList [0])
+print (myList [4])
+print (myList [5])
+
+#This is different from the code embedded in my Portfolio. Notice that this code is in a file, not in the shell, so it will print all four commands in a row instead of me having to type them on each line.
+
